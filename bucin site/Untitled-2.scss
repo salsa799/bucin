@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffcccb;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    font-size: 2.5rem;
+    color: #ff6b6b;
+    margin-bottom: 1rem;
+}
+
+.message {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #ff4444;
+}
+
+#loveMessage {
+    font-size: 1.5rem;
+    color: #ff4444;
+    margin-top: 1rem;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.hidden {
+    display: none;
+}
